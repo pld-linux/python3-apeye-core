@@ -1,4 +1,5 @@
 Summary:	Core (offline) functionality for the apeye library
+Summary(pl.UTF-8):	Podstawowa funkcjonalność (offline) biblioteki apeye
 Name:		python3-apeye-core
 Version:	1.1.5
 Release:	1
@@ -21,6 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Core (offline) functionality for the apeye library.
+
+%description -l pl.UTF-8
+Podstawowa funkcjonalność (offline) biblioteki apeye.
 
 %prep
 %setup -q -n apeye_core-%{version}
